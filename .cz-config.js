@@ -25,7 +25,7 @@ module.exports = {
     { value: 'Revert', name: 'Revert:   Revert to a commit' },
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
-  scopes: [],
+  scopes: [{ name: 'demand' }],
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
   subjectLimit: 100,
