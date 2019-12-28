@@ -25,7 +25,7 @@ module.exports = {
     { value: 'Revert', name: 'Revert:   Revert to a commit' },
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
-  scopes: [{ name: 'demand' }, { name: 'web-ui-design'}],
+  scopes: [{ name: 'demand' }, { name: 'web-ui-design'}, {name: 'wx-ui-design'}],
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
   subjectLimit: 100,
